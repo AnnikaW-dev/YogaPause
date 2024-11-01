@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Marck+Script&display=swap');
+
+.marck-script-regular {
+    font-family: "Marck Script", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.kavivanar-regular {
+    font-family: "Kavivanar", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/*CSS Varible*/
+:root {
+    /*Fonts*/
+    --primary-font: "Marck Script", serif;
+    --secondary-font:"Kavivanar", serif;
+    /*Colors*/
+    --primary-color:#3c362a; /* Dark Taupe*/
+    --secondary-color:#b75d69; /* Red wood*/
+    --light-color:#eacdc2; /* Pale Dogwood */
+    --light-light-color:#ffeee2; /*Linnen*/
+    --high-light-color:#75dbcd; /* Tiffany Blue*/
+}
