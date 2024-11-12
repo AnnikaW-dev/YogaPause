@@ -16,10 +16,10 @@
 /*CSS Varible*/
 :root {
     /*Fonts*/
-    --primary-font: "Marck Script", serif;
+    --header-font: "Marck Script", serif;
     --secondary-font:"Kavivanar", serif;
     /*Colors*/
-    --primary-color:#3c362a; /* Dark Taupe*/
+    --dark-color:#3c362a; /* Dark Taupe*/
     --secondary-color:#b75d69; /* Red wood*/
     --light-color:#eacdc2; /* Pale Dogwood */
     --light-light-color:#ffeee2; /*Linnen*/
@@ -32,6 +32,22 @@ body{
   background-color: var(--light-light-color);
  }
 
-/*Navbar style*/
+/*Header style*/
+header {
+  display: flex;
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+  text-decoration: none;
+  padding: 0 1rem;
+  z-index: index 99;
+  width: 100%;
+  box-shadow: 0 2px 2px var(--dark-color);
+  justify-content: space-between;
+  align-items: baseline;
+}
 
+#logo{
+  font-family: var(--header-font);
+  color: var(--light-color);
+}
  
