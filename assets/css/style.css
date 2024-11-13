@@ -14,27 +14,33 @@
     --light-light-color:#ffeee2; /*Linnen*/
     --high-light-color:#75dbcd; /* Tiffany Blue*/
 }
-/*General style*/
+/* over ride defeault styles added by browser*/
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+/*General style*/
 
 /*Body*/
+body{
+  color:var(--dark-color);
+  font-family: var(--secondary-font), cursive;
+}
+
+
 main{
   background-color: var(--light-light-color);
+  min min-height: 100vh;
  }
 
- footer{
-  background-color: var(--secondary-color);
- }
+ 
 
 /*Header style*/
 header {
   display: flex;
   background-color: var(--secondary-color);
-  color: var(--light-color);
+  color: var(--dark-color);
   text-decoration: none;
   padding: 0 1rem;
   z-index: index 99;
@@ -42,10 +48,30 @@ header {
   box-shadow: 0 2px 2px var(--dark-color);
   justify-content: space-between;
   align-items: baseline;
+  position: fixed;
 }
 
-#logo{
-  font-family: var(--header-font);
-  color: var(--light-color);
+header a{
+  text-decoration: none;
+  color: inherit;
 }
- 
+h1{
+  font-family: var(--header-font);
+  text-transform: none;
+  letter-spacing: 2px;
+  color: var(--dark-color);
+  }
+
+  #menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style: none;
+  }
+
+  #menu > li{
+    margin-bottom: 0.5em;
+  }
+
+ footer{
+  background-color: var(--secondary-color);
+ }
