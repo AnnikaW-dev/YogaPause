@@ -103,8 +103,12 @@ main{
   flex: 1 0 auto;
   margin-top: 53px;
 }
+/*Footer*/
 footer{
   background-color: var(--secondary-color);
+}
+#social-media {
+  list-style: none;
 }
 
 /* media queries for tablets*/
