@@ -31,7 +31,7 @@ body{
 
 main{
   background-color: var(--light-light-color);
-  min min-height: 100vh;
+  min-height: 100vh;
  }
 
  
@@ -83,6 +83,20 @@ h1{
     padding-top: 0 1rem;
     box-shadow: 0 2px 2px var(--dark-color);
     display: none;
+    top: 100%;
+  }
+
+  /*Toggel nav*/
+  #nav-toggle:checked~nav{
+    display: block;
+  }
+
+  #nav-toggle{
+    display: none;
+  }
+
+  .nav-toggle-label{
+    font-size: 2rem;
   }
 
  footer{
