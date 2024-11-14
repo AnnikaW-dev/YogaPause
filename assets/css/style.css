@@ -140,4 +140,12 @@ footer{
     /* Push main content down to accommodate larger header */
     margin-top: 81px;
   }
+  
+}
+/* media queries for tablets*/
+@media screen and (min-width: 992px){
+  #menu a:hover {
+    border-bottom: 1px solid var(--light-color);
+    color: var(--light-color);
+  }
 }
