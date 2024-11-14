@@ -43,7 +43,7 @@ header {
   color: var(--dark-color);
   text-decoration: none;
   padding: 0 1rem;
-  z-index: index 99;
+  z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px var(--dark-color);
   justify-content: space-between;
@@ -70,6 +70,19 @@ h1{
 
   #menu > li{
     margin-bottom: 0.5em;
+  }
+  .active{
+    border-bottom: 1px solid var(--dark-color);
+  }
+
+  nav{
+    position: absolute;
+    background-color: var(--secondary-color);
+    width: 100%;
+    left: 0;
+    padding-top: 0 1rem;
+    box-shadow: 0 2px 2px var(--dark-color);
+    display: none;
   }
 
  footer{
