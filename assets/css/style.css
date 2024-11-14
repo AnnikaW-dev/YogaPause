@@ -24,17 +24,12 @@
 
 /*Body*/
 body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   color:var(--dark-color);
   font-family: var(--secondary-font), cursive;
 }
-
-
-main{
-  background-color: var(--light-light-color);
-  min-height: 100vh;
- }
-
- 
 
 /*Header style*/
 header {
@@ -62,43 +57,47 @@ h1{
   color: var(--dark-color);
   }
 
-  #menu{
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style: none;
-  }
+#menu{
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style: none;
+}
 
-  #menu > li{
-    margin-bottom: 0.5em;
-  }
-  .active{
-    border-bottom: 1px solid var(--dark-color);
-  }
+#menu > li{
+  margin-bottom: 0.5em;
+}
+.active{
+  border-bottom: 1px solid var(--dark-color);
+}
 
-  nav{
-    position: absolute;
-    background-color: var(--secondary-color);
-    width: 100%;
-    left: 0;
-    padding-top: 0 1rem;
-    box-shadow: 0 2px 2px var(--dark-color);
-    display: none;
-    top: 100%;
-  }
-
-  /*Toggel nav*/
-  #nav-toggle:checked~nav{
-    display: block;
-  }
-
-  #nav-toggle{
-    display: none;
-  }
-
-  .nav-toggle-label{
-    font-size: 2rem;
-  }
-
- footer{
+nav{
+  position: absolute;
   background-color: var(--secondary-color);
- }
+  width: 100%;
+  left: 0;
+  padding-top: 0 1rem;
+  box-shadow: 0 2px 2px var(--dark-color);
+  display: none;
+  top: 100%;
+}
+
+/*Toggel nav*/
+#nav-toggle:checked~nav{
+  display: block;
+}
+
+#nav-toggle{
+  display: none;
+}
+
+.nav-toggle-label{
+  font-size: 2rem;
+}
+main{
+  background-color: var(--light-light-color);
+  flex: 1 0 auto;
+  margin-top: 53px;
+}
+footer{
+  background-color: var(--secondary-color);
+}
