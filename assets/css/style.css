@@ -93,6 +93,11 @@ nav{
 .nav-toggle-label{
   font-size: 2rem;
 }
+
+.active{
+  border-bottom: 1px solid var(--dark-color);
+}
+
 main{
   background-color: var(--light-light-color);
   flex: 1 0 auto;
@@ -100,4 +105,39 @@ main{
 }
 footer{
   background-color: var(--secondary-color);
+}
+
+/* media queries for tablets*/
+@media screen and (min-width: 768px){
+  /*Header*/
+  nav{
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit content;
+    padding-right: 1rem;
+  }
+  #menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  #menu > li {
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  #logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
+
+  main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 81px;
+  }
 }
