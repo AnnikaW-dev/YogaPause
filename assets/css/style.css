@@ -107,8 +107,19 @@ main{
 footer{
   background-color: var(--secondary-color);
 }
+
 #social-media {
   list-style: none;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#social-media i {
+  font-size: 160%;
+  padding: 5%;
+  color: var(--dark-color);
 }
 
 /* media queries for tablets*/
