@@ -119,6 +119,11 @@ footer{
   background-color: var(--secondary-color);
 }
 
+/* remove the margin on icons in footer to center them*/
+footer ul {
+  margin-bottom: 0;
+}
+
 #social-media {
   list-style: none;
   text-align: center;
