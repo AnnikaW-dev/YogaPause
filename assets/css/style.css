@@ -114,6 +114,12 @@ main h1{
 main h2 {
   font-family: var(--header-font);
 }
+
+.btn {
+  background-color: var(--high-light-color);
+  color: var(--dark-color);
+  border: none;
+}
 /*Footer*/
 footer{
   background-color: var(--secondary-color);
