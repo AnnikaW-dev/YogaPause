@@ -111,7 +111,7 @@ main h1{
   color: var(--dark-color);
 }
 
-main h2 {
+main h2 h3 {
   font-family: var(--header-font);
 }
 
