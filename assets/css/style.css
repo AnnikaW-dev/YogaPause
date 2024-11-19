@@ -31,6 +31,17 @@ body{
   font-family: var(--secondary-font), cursive;
 }
 
+/*Button Style*/
+.btn {
+  background-color: var(--high-light-color);
+  color: var(--dark-color);
+  border: none;
+}
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--light-light-color);
+}
+
 /*Header style*/
 header {
   display: flex;
@@ -115,11 +126,7 @@ main h2 h3 {
   font-family: var(--header-font);
 }
 
-.btn {
-  background-color: var(--high-light-color);
-  color: var(--dark-color);
-  border: none;
-}
+
 /*Footer*/
 footer{
   background-color: var(--secondary-color);
