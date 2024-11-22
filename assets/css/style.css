@@ -152,6 +152,20 @@ footer ul {
   color: var(--dark-color);
 }
 
+/*coming up page*/
+
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
+
+
+
+
 /* media queries for tablets*/
 @media screen and (min-width: 768px){
   /*Header*/
@@ -186,6 +200,12 @@ footer ul {
     margin-top: 81px;
   }
   
+}/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 /* media queries for tablets*/
 @media screen and (min-width: 992px){
