@@ -168,9 +168,7 @@ footer ul {
 
 #success {
   display: flex;
-  justify-content: center;
   align-items: center;
-  
 }
 
 /* media queries for tablets*/
