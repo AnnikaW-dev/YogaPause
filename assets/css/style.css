@@ -166,8 +166,12 @@ footer ul {
   line-height: 0;
 }
 
-
-
+#success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
 /* media queries for tablets*/
 @media screen and (min-width: 768px){
