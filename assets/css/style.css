@@ -21,7 +21,10 @@
   box-sizing: border-box;
 }
 /*General style*/
-
+.section{
+  margin-bottom: 2rem;
+  width:95%;
+}
 /*Body*/
 body{
   min-height: 100vh;
