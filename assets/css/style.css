@@ -22,7 +22,7 @@
 }
 /*General style*/
 .section{
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   width:95%;
 }
 /*Body*/
@@ -70,6 +70,7 @@ header h1{
   text-transform: none;
   letter-spacing: 2px;
   color: var(--dark-color);
+  margin-top: 2rem;
   }
 
 #menu{
