@@ -131,7 +131,9 @@ main h2 h3 {
   font-family: var(--header-font);
 }
 
-
+#cards {
+  width:95%;
+}
 /*Footer*/
 footer{
   background-color: var(--secondary-color);
