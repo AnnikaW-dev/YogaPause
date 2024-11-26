@@ -21,7 +21,6 @@
 
   <!--CSS stylesheet-->
   <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
@@ -154,17 +153,19 @@
       <form action="success.html" method="GET">
         <div class="row">
           <div class="mb-3 col-12 col-md-6">
-            <label for="inputEmail" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"name="inputEmail" required>
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-          </div>
-          <div class="mb-3 col-12 col-md-6">
             <label for="inputName" class="form-label">Name</label>
             <input type="text" class="form-control" id="inputName" name="inputName" required>
           </div>
-          <div class=" col-12 mb-3">
+          <div class=" col-12 col-md-6 mb-3">
             <label for="inputMessages" class="form-label">Messages</label>
-            <input type="text" rows:"3" class="form-control" id="inputMessages" name="inputMessages" required>
+            <textarea type="text" rows="3" class="form-control" id="inputMessages" name="inputMessages" required>
+              </textarea>
+          </div>
+          <div class="mb-3 col-12 col-md-6">
+            <label for="inputEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" name="inputEmail"
+              required>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
           </div>
         </div>
         <div class="text-center">
