@@ -223,3 +223,23 @@ footer ul {
     color: var(--light-color);
   }
 }
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  /* make all service cards the same height for consistency */
+  #cards .card-body {
+      min-height: 222px;
+  }
+  .card-text {
+    min-height: 80px;
+  }
+  }
+}
+
+/* xxl devices (larger desktops, 1400px and up)*/ 
+@media screen and (min-width: 1400px) {
+/* make all service cards the same height for consistency */
+  #cards .card-body {
+      min-height: 195px;
+  }
+}
