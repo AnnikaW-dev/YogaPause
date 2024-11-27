@@ -39,6 +39,7 @@ body{
   background-color: var(--high-light-color);
   color: var(--dark-color);
   border: none;
+  text-align: center;
 }
 .btn:hover {
   background-color: var(--secondary-color);
