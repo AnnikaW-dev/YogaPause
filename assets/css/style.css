@@ -112,7 +112,7 @@ nav{
   background-color: var(--secondary-color);
   width: 100%;
   left: 0;
-  padding-top: 0 1rem;
+  padding-top: 1rem;
   -webkit-box-shadow: 0 2px 2px var(--dark-color);
           box-shadow: 0 2px 2px var(--dark-color);
   display: none;
@@ -217,7 +217,7 @@ footer ul {
     position: relative;
     -webkit-box-shadow: none;
             box-shadow: none;
-    width: fit content;
+    width: fit-content;
     padding-right: 1rem;
   }
   #menu {
