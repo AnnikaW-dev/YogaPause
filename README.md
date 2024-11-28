@@ -88,15 +88,11 @@ I got to change the colour a little due to low contrast LÄNK TILL test
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+I choose Marck Script due to that is soft and looks nice in the navbar and as a h1 header.
+Choose Kavivnar due to that is allso soft but are much easier to read in longer text. So i used it in all other headers and texts.
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+[Shows the the font styles that I used in YogaPaus](docs/readme_images/font_styles.png
 
-[Shows the color scheme that I started from](docs/readme_images/font_styles.png)
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
 
 ### Imagery
 
