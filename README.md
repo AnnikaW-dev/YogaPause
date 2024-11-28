@@ -79,9 +79,12 @@ Want to have session that helps to be more calm and relaxed.
 
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+I choosed those colurs due to that i like them and I think those colours are calming and soft to look at. The blue colour did I chose due to that i thought it was goo with the other but pops so I used that to all buttons.
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+I got to change the colour a little due to low contrast LÄNK TILL test
+
+[Shows the color scheme that I started from](docs/readme_images/Colors.png)
+
 
 ### Typography
 
@@ -91,7 +94,7 @@ Why did you choose the font you have?
 Is this an accessibly friendly font?
 What weights have you included?
 
-I also like to include an image of the fonts chosen as a reference.
+[Shows the color scheme that I started from](docs/readme_images/font_styles.png)
 
 [Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
 
