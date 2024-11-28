@@ -64,6 +64,13 @@ Would like to receive step-by-step instructions for beginner yoga.
 Would like clear images that showing each position.
 Would like easy positions that all can do.
 
+#### Workers
+Want to have short sessions due they only can take short pauses.
+Want sessions that are suitable for small spaces.
+Want alternative seated yoga.
+Want to have session that helps to be more calm and relaxed.
+
+
 
 
 ## Design
