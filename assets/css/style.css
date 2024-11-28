@@ -140,7 +140,7 @@ footer{
   background-color: var(--secondary-color);
 }
 
-/* remove the margin on icons in footer to center them*/
+/* remove the margin on icons in footer to center them in y*/
 footer ul {
   margin-bottom: 0;
 }
@@ -223,24 +223,15 @@ footer ul {
     border-bottom: 1px solid var(--light-color);
     color: var(--light-color);
   }
+  #cards-home .card-body {
+    min-height: 195px;
+  }
 }
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
   /* make all service cards the same height for consistency */
-  #cards .card-body {
-      min-height: 222px;
-  }
-  .card-text {
-    min-height: 80px;
-  }
-  }
-}
-
-/* xxl devices (larger desktops, 1400px and up)*/ 
-@media screen and (min-width: 1400px) {
-/* make all service cards the same height for consistency */
-  #cards .card-body {
-      min-height: 195px;
+  #cards-home .card-text {
+    min-height: 96px;
   }
 }
