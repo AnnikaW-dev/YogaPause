@@ -1,12 +1,14 @@
-# PROJECT NAME TO GO HERE
+# YogaPause
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
+The Yoga pause web site is build for everyone that sits infront of the desk for many hours and needs to take a small break and move or relax for a moment. I did this due to that I have seen in my previous job that many got pain in nack, shoulders caused of to many hours infront of the computer. As I am a Yoga teatcher I thought that wolud be good for the healht to take a small paus and do yoga or relax with help of meditation.
 
-Add a Blurb about the site here, what does it do, why did you build it?
+![YogaPaus Website shown on a range of devices](docs/readme_images/Mockup.png)
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+
+[View YogaPaus on Github Pages](https://annikaw-dev.github.io/YogaPause)
+
+
 
 If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
@@ -50,11 +52,19 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
+### Initial Discussion
+The Yoga pause web site is build for everyone that sits infront of the desk for many hours and needs to take a small break and move or relax for a moment. I did this due to that I have seen in my previous job that many got pain in nack, shoulders caused of to many hours infront of the computer. As I am a Yoga teatcher I thought that wolud be good for the health to take a small paus and do yoga or relax with help of meditation.
+
+This is a start up site that the owner want to grow but wanted to start small to let it grow after the visitors feedback.
 
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+#### Yoga beginners
+Would like to receive step-by-step instructions for beginner yoga.
+Would like clear images that showing each position.
+Would like easy positions that all can do.
+
+
 
 ## Design
 
