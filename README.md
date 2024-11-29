@@ -165,88 +165,164 @@ I then like to add a screenshot of each page of the site here, i use [amirespons
 
 ### Future Implementations
 
-* In the feature ia would like to:
+* In the future ia would like to:
 
-  *add login so the members have access to: 
+  *Add login so the members have access to: 
 
-   * have holliday thems for every holliday so yo can chose if you want to use the theme.
+   * Holliday thems for every holliday so yo can chose if you want to use the theme.
 
    * I would also like to have recorded instuction that so the user can chose to listen or read the instuction and more different sessisions.
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+I have had the accessibillity inmind through the procces of building YogaPause by:
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
+* Used sematic HTML
 
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
+* I have used well known icons and added aria-labels to enable screen readers to understand these
 
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+* I havee ensured to meet the minimum contrst reuirements by test with [WAVE](https://wave.webaim.org/) (see the resault in the test section)
+
+* I have chosen the fonts with the readabillity in mind.
+
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML and CSS was used to create this site.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+Balsamiq - was used to creat the wireframes.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Github - to save and store files.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+Bootstap Version 5.3.3 - Codes for carousel, cards and form. additional CSS styling was also implemented in style.css
+
+Google Fonts - to implement the fonts used.
+
+Chrome Dev tools - To se the responsivness and styling.
+
+Favicon.io - To get favicons.
+
+[Techsini](https://techsini.com/multi-mockup) - To show website images on differens devices.
+
 
 ## Deployment & Local Development
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
 ### Deployment
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, AnnikaW-dev/YogaPause.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
-### Local Development
-
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
 
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork the YogaPause repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, AnnikaW-dev/YogaPause.
+3. Click the Fork button in the top right corner.
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone the ogaPause repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, AnnikaW-dev/YogaPause.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+### Lighthouse Testing
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+![Home Page result at lighthous testing](docs/readme_images/home%20_lighthuse_testing.png)
+
+![Yoga Page result at lighthous testing](docs/readme_images/yoga-lighthouse_testing.png)
+
+![Coming up Page result at lighthous testing](docs/readme_images/coming_up_lighthouse%20_testing.png)
+
+![success page result at lighthous testing](docs/readme_images/success__page.png)
+
+![404 Page result at lighthous testing](docs/readme_images/404_lighthouse%20_testing.png)
+
+### WAVE testing
+
+![contrast result at WAVE testing](docs/readme_images/contrast_test_with_WAVE.png)
+
+### Manuel Testing
+
+* Responsivness - Tested on Chrome Dev Tool during the developpment to make sure it was ok - OK
+
+* Nav links on all pages - openen the page with the link from github and test all links on the page one by one - OK
+
+* Carousel on home page - openen the page with the link from github wait to se that the carousel auto play - OK
+
+* Carousel on home page - openen the page with the link from github and tried the forward- and backwards button works - OK
+
+* Buttons on home page - openen the page with the link from github and test all buttons on the page - OK
+
+* Social media links on home page - openen the page with the link from github and test all links on the page one by one - OK
+
+* Spotify on yoga page - openen the page with the link from github and test all both spotify audio links - OK
+
+* Button on comming upp pages - openen the page with the link from github and test the button - OK
+
+* 404 page - openen the page with the link from github and and test the 404 page by open yoga page and put in an extra letter - OK
+
+* Button on 404 pages - openen the page with the link from github and test the button - OK
+
+* Form test- openen the page with the link from github and tried to send with out filling in all filds an email address with out @ - OK
+
+* Form test- openen the page with the link from github and click send button OK
+
+* Button success pages - openen the page with the link from github and test the button - OK
+
+## Validator Testing
+
+I did validator testing for all pages and got some errors:
+
+* For use the wong heading h1 instead of h2
+
+* End tag for body missing 
+
+* Unclosed elements
+
+* Attributs in iframe element is obsolete Use CSS intead
+
+* Bad value for images illegal chaters used
+
+All this Errors was easy to find and fix.
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
+ID 128283559, 131391464, 128283557 © Onyxprj | Dreamstime.com
 
-The Credits section is where you can credit all the people and sources you used throughout your project.
+ID 197896178 © Marina Karavaeva | Dreamstime.com
 
-### Code Used
+ID 106234109 © Anastasiia Shinkareva | Dreamstime.com
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+ID 297226422 © Prominentprintwear | Dreamstime.com
+
+ID 176240997 © Tartilastock | Dreamstime.com
+
+ID 193880406, 132871369 © VectorMine | Dreamstime.com 
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+I have writen all content on YogaPusa my self.
 
-###  Media
-
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
-  
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+My Code Intitute Mentor Gareth Mc Girr for all links for tests and support.
+
+My Two dogs Rocky and Ineze for there patience when I sitt infront of the computer to long.
