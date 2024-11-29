@@ -96,31 +96,82 @@ Choose Kavivnar due to that is allso soft but are much easier to read in longer 
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+I to use the carousel on the home page as a gallery with pictures form office yoga from Stockcake instead of having a gallery https://stockcake.com/.
+The images for yoga instructions and for the coming up page I used illustrations from dreamtime  https://www.dreamstime.com/
+Both sites have free download and are royaltyfree.
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
+Wireframes were created for mobile, tablet, and desktop
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
+[Shows the wireframes for home page](docs/readme_images/wireframe_home.png)
 
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+[Shows the wireframes for yoga page](docs/readme_images/wireframe_yoga.png)
+
+[Shows the wireframes for gallery page](docs/readme_images/wireframe_yoga.png)
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+YogaPaus is divided in three pages as home, Yoga and coming up. It allso have ha thank you page that is shown when the user have sent a message and a 404 page.
 
-This section can be used to explain what pages your site is made up of.
+* All pages have: 
+
+  * A navigation bar that are responsive and easy to use on all size of devices. To the left it has a Header and to the rigth there is hamburger icon that symbolize menu on small devices. when you click it the menu opens up with links to Home, Yoga, Contact Us and Coming Up. On bigger devices the link-menu shows in right section of the nav bar.
+  This make it easy for user to navigat on the site from all pages. And the hamburger icon is a well known icon for menu so most user will know what it is used for.
+
+  * A footer with social media icons to facebook, Instagram, x and yotube. This icons that are used as links is universally recognisable and make the footer look clean.  
 
 ### General features on each page
+ 
+ * Home page 
+  
+  * It starts with a About text that describes for whom and what it is good for. It allso describe what the site contains and wht you can expect.
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+  * Carousel with photos of office worker doing yoga in the office.
+
+  * Card section  with four card that describe the four different sessions you can choose from. they also have a button that takes the use directlly to the yoga page and the choise of session the user choosed.
+
+  * Contact section with a form that contains field for name, email address and a textarea for the messages. All fields requiers to be filled before the user are able to send and the email area will only take email addreses. If the user miss somthing they will get antooltip with information of whts missing.
+
+* Yoga page
+
+ * It starts with a short discription of the content of the page.
+
+  *Card section with four cards.
+
+   * The two fist cards two different yoga sessions one with chair yoga for those that want to sit down and one for those who wnats to stand during the session. on the cards in the top there is an illustration of the positions the session contains and under you can find a step by step discription of the movment and positions.
+
+  * The two last cards contains tow different guided meditation from spotify.
+
+* Comming up page
+
+ * Starts with a description of what we want have in the future that now is a christmas them. We also ask for wishes and feedback from the users and a button whit a link to the contact form.
+
+ * Galley section with images with christmas and yoga them the user can see, among other things Santa Claus do Yoga and meditate.
+
+* Thank you page
+ 
+ * The thank you page will apper when the user send a messages. It says thank you and have an back to home button for easy get back.
+
+* 404 page
+ 
+ * It will apper if there is some thing wrong with a page so the broser cant open it. It contians a cant find the page message and a Back to home button for easy get back.
+
+
+
+
 
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+* In the feature ia would like to:
+
+  *add login so the members have access to: 
+
+   * have holliday thems for every holliday so yo can chose if you want to use the theme.
+
+   * I would also like to have recorded instuction that so the user can chose to listen or read the instuction and more different sessisions.
 
 ### Accessibility
 
