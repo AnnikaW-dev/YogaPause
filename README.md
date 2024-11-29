@@ -83,7 +83,7 @@ I choosed those colurs due to that i like them and I think those colours are cal
 
 I got to change the colour a little due to low contrast LÄNK TILL test
 
-[Shows the color scheme that I started from](docs/readme_images/Colors.png)
+![Shows the color scheme that I started from](docs/readme_images/Colors.png)
 
 
 ### Typography
@@ -91,7 +91,7 @@ I got to change the colour a little due to low contrast LÄNK TILL test
 I choose Marck Script due to that is soft and looks nice in the navbar and as a h1 header.
 Choose Kavivnar due to that is allso soft but are much easier to read in longer text. So i used it in all other headers and texts.
 
-[Shows the the font styles that I used in YogaPaus](docs/readme_images/font_styles.png
+![Shows the the font styles that I used in YogaPaus](docs/readme_images/font_styles.png)
 
 
 ### Imagery
